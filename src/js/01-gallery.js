@@ -14,7 +14,7 @@ const galleryAdd = galleryItems
   )
   .join("");
 galleryEl.innerHTML = galleryAdd;
-
+galleryEl.style.listStyle = 'none';
 var lightbox = new SimpleLightbox(".gallery a", {
   captionDelay: 250,
   captionsData: "alt",
